@@ -3,7 +3,7 @@ Nosql Homework: Workout Tracker
 
 ## Description
 
-This app is a workout tracker. You have already been provided with the front end code in the `Develop` folder. It was built using a Mongo database with a Mongoose schema and handles routes with Express.
+This app is a workout tracker. It was built using a Mongo database with a Mongoose schema and handles routes with Express.
 
 
 ## Business Context
