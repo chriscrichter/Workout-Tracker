@@ -5,6 +5,19 @@ Nosql Homework: Workout Tracker
 
 This app is a workout tracker. It was built using a Mongo database with a Mongoose schema and handles routes with Express.
 
+When the user loads the page, they are given the option to create a new workout, or continue with their last workout.
+
+The user is able to:
+
+  * Add new exercises to a new workout plan.
+  * Add exercises to a previous workout plan.
+  * View multiple the combined weight of multiple exercises on the `stats` page.
+
+<img src="assets/addexercise.png" width="600" height="350">
+
+<img src="assets/workout.png" width="600" height="350">
+
+<img src="assets/dashboard.png" width="600" height="350">
 
 ## Business Context
 
