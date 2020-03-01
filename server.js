@@ -10,17 +10,13 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
 
-mongoose.connect(MONGODB_URI);
-
-/*
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout"
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://chris:coder2020@ds261238.mlab.com:61238/heroku_cq350zlj"
 mongoose.connect(MONGODB_URI, {
 useNewUrlParser: true,
   useFindAndModify: false
 });
-*/
+
 
 const db = require("./models");
 
