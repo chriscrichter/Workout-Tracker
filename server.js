@@ -12,10 +12,10 @@ app.use(express.static("public"));
 
 //"mongodb://localhost/workout"
 //"mongodb://chris:coder2020@ds261238.mlab.com:61238/heroku_cq350zlj"
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://chris:coder2020@ds261238.mlab.com:61238/heroku_cq350zlj"
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://chris:coder2020@ds261238.mlab.com:61238/heroku_cq350zlj";
 mongoose.connect(MONGODB_URI, {
 useNewUrlParser: true,
-  useFindAndModify: true
+  useFindAndModify: false
 });
 
 const db = require("./models");
