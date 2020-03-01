@@ -23,6 +23,9 @@ The user is able to:
 
 A consumer will reach their fitness goals quicker when they track their workout progress.
 
+## Deployed on Heroku
+
+ [https://immense-peak-42868.herokuapp.com/](https://immense-peak-42868.herokuapp.com/)
 
 ## GitHub page
 
